@@ -33,8 +33,9 @@ header {
 nav ul {
     list-style-type: none;
     margin-top: 1%;
+    margin-left: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: 200%;
 }
 
@@ -51,4 +52,13 @@ nav a {
 
 nav a.active {
     border-color: red;
+}
+
+/*Section*/
+section {
+    margin-top: 25px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    height: 1500px;
+    text-align: center;
 }
