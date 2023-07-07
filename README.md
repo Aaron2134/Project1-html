@@ -6,3 +6,6 @@ https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
 
 some inspiration for the website design
 https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
+
+What i used to add the videos 
+https://support.google.com/youtube/answer/171780?hl=en#:~:text=How%20to%20Embed%20a%20YouTube%20Video%20on%20a,into%20your%20blog%20or%20website%20HTML.%20See%20More.

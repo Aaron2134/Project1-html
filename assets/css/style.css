@@ -8,6 +8,11 @@ body {
     background-color: rgb(60, 60, 60);
 }
 
+#highlight {
+    text-decoration: line;
+    font-weight: bold;
+}
+
 header {
     font-size: 160%;
     text-align: center;
