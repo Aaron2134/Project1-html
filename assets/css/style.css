@@ -1,11 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+}
+
 header {
     font-size: 160%;
     text-align: center;
     color: rgb(230, 150, 0);
+    background-color: rgb(60, 60, 60);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #header-image {
     text-align: center;
+    background-color: black;
 }
 
 #header-image img {
