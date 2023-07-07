@@ -12,7 +12,6 @@ header {
     font-size: 160%;
     text-align: center;
     color: rgb(230, 150, 0);
-    background-color: rgb(60, 60, 60);
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -33,9 +32,9 @@ header {
 nav ul {
     list-style-type: none;
     margin-top: 1%;
-    margin-left: 5%;
+    margin-right: 2%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-size: 200%;
 }
 
@@ -61,4 +60,30 @@ section {
     margin-right: 7.5%;
     height: 1500px;
     text-align: center;
+}
+
+hr{
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+section p {
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.left-align {
+    float: left;
+    text-align: left;
+    width: 45%;
+}
+
+.right-align {
+    float: right;
+    text-align: right;
+    width: 45%;
 }
