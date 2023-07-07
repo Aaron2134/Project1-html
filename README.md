@@ -14,3 +14,8 @@ Credit to Video Creator - on overview page
 https://www.youtube.com/@BrandSanderson
 
 Some code templates used in this project were taken from the love running example website and https://www.w3schools.com/Css/default.asp
+
+Credit for the interactive map div 
+https://mapgenie.io/elden-ring/maps/the-lands-between
+
+I Used guides on https://www.w3schools.com/html/html_iframe.asp#:~:text=The%20HTML%20%3Ciframe%3E%20tag%20specifies%20an%20inline%20frame,border%3Anone%3B%20to%20remove%20the%20border%20around%20the%20iframe for the interactive map
