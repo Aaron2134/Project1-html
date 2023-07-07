@@ -8,11 +8,6 @@ body {
     background-color: rgb(60, 60, 60);
 }
 
-#highlight {
-    text-decoration: line;
-    font-weight: bold;
-}
-
 header {
     font-size: 160%;
     text-align: center;
@@ -24,7 +19,7 @@ header {
 /* Header image */
 #header-image {
     text-align: center;
-    background-color: black;
+    background-color: #333;
 }
 
 #header-image img {
@@ -63,16 +58,16 @@ section {
     margin-top: 25px;
     margin-left: 7.5%;
     margin-right: 7.5%;
-    height: 1500px;
-    text-align: center;
+    height: 1000px;
 }
 
 hr{
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid black;
 }
 
 h2 {
     font-size: 40px;
+    color: rgb(230, 150, 0);
 }
 
 section p {
@@ -91,4 +86,23 @@ section p {
     float: right;
     text-align: right;
     width: 45%;
+}
+
+#highlight {
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 150%;
+}
+/*Footer*/
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 5%;
+    color: #fff;
+    font-size: 40px;
 }
