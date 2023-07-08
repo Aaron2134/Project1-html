@@ -53,7 +53,7 @@ nav a.active {
     border-color: red;
 }
 
-/*Section*/
+/*Section rules*/
 section {
     margin-top: 25px;
     margin-left: 7.5%;
@@ -74,6 +74,12 @@ section p {
     font-size: 20px;
     color: white;
     padding-top: 20px;
+}
+
+/*Spacing for the boss list*/
+.spacing {
+    height: 500px;
+    background-color: #333;;
 }
 
 .left-align {
