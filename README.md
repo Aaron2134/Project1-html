@@ -19,3 +19,5 @@ Credit for the interactive map div
 https://mapgenie.io/elden-ring/maps/the-lands-between
 
 I Used guides on https://www.w3schools.com/html/html_iframe.asp#:~:text=The%20HTML%20%3Ciframe%3E%20tag%20specifies%20an%20inline%20frame,border%3Anone%3B%20to%20remove%20the%20border%20around%20the%20iframe for the interactive map
+
+I used guides on https://css-tricks.com/snippets/css/a-guide-to-flexbox/ for my navigation styling
