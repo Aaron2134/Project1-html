@@ -92,6 +92,7 @@ section p {
     text-decoration-line: underline;
     font-weight: bold;
     font-size: 150%;
+    color: white;
 }
 /*Footer*/
 footer {
@@ -120,4 +121,23 @@ footer {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+/* Paragraph and image styling for bosses list*/
+.character-description {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.character-image {
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.character-image img {
+    padding-top: 25px;
+    width: 500px;
+    height: auto;
 }

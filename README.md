@@ -4,6 +4,12 @@ https://www.cnet.com/tech/gaming/why-the-hell-is-elden-ring-so-popular/
 https://ftw.usatoday.com/lists/what-is-elden-ring
 https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
 
+Sources of informations on map page paragraphs
+https://eldenring.wiki.fextralife.com/Maps
+https://www.ign.com/wikis/elden-ring/How_to_Reveal_the_Elden_Ring_Map
+https://www.youtube.com/watch?v=Kh0TcNNXYYk
+
+
 some inspiration for the website design
 https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
 
