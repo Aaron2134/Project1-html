@@ -9,6 +9,9 @@ https://eldenring.wiki.fextralife.com/Maps
 https://www.ign.com/wikis/elden-ring/How_to_Reveal_the_Elden_Ring_Map
 https://www.youtube.com/watch?v=Kh0TcNNXYYk
 
+source for the 3 hardest bosses
+https://www.denofgeek.com/games/hardest-elden-ring-boss-fights-tough-difficult/
+
 
 some inspiration for the website design
 https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
