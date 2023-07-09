@@ -28,6 +28,14 @@ header {
     object-fit: contain;
 }
 
+/*Highlighting for important text and link*/
+#highlight {
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 110%;
+    color: white;
+}
+
 /* Navigation */
 nav ul {
     list-style-type: none;
@@ -94,12 +102,6 @@ section p {
     width: 45%;
 }
 
-#highlight {
-    text-decoration-line: underline;
-    font-weight: bold;
-    font-size: 150%;
-    color: white;
-}
 /*Footer*/
 footer {
     width: 100%;
