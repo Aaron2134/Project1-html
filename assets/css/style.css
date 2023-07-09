@@ -73,6 +73,7 @@ section {
     margin-top: 25px;
     margin-left: 7.5%;
     margin-right: 7.5%;
+    height: 1600px;
 }
 
 hr{
@@ -117,6 +118,7 @@ footer {
     background-color: #333;
     padding: 20px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .social-links a {
@@ -160,7 +162,7 @@ footer {
 }
 
 /*Stops the text from the section covering the footer and social links on smaller screens*/
-@media (max-width: 940px) {
+@media (max-width: 1100px) {
     section {
         overflow-y: auto;
         padding-bottom: 50px;
