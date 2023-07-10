@@ -32,7 +32,7 @@ header {
 }
 
 /*Highlighting for important text and link*/
-#highlight {
+.highlight {
     text-decoration-line: underline;
     font-weight: bold;
     font-size: 110%;
@@ -85,7 +85,7 @@ h2 {
     color: rgb(230, 150, 0);
 }
 
-section p {
+p {
     font-size: 20px;
     color: white;
     padding-top: 20px;
@@ -172,8 +172,8 @@ footer {
 /*Removes the margin to use all the screen space on small screens*/
 @media (max-width: 800px) {
     section {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
