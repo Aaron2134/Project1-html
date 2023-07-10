@@ -81,3 +81,9 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ## Unresolved Bugs
 
 - I have a issue with the images on the 3 bosses section i can't seem to get them to go under the text when on a smaller screen size
+
+# Features
+- ## Navigation
+- At the top of the page there is a heading that when clicked brings the user back to the overview page
+- The main 3 navigations buttons are place bellow the main image in a easy to see position that respsonds to the screen size and fit well with the websites theme.
+
