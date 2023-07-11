@@ -101,8 +101,10 @@ p {
 .spacing {
     height: 500px;
     background-color: #333;
+    padding-left: 25px;
 }
 
+/* alignment for the overview page*/
 .left-align {
     float: left;
     text-align: left;
@@ -184,7 +186,7 @@ footer {
 }
 
 /*Stops the text from the boss divs leaving their assigned box*/
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
     .spacing {
         overflow-y: auto;
         padding-bottom: 50px;
