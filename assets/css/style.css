@@ -119,6 +119,11 @@ p {
     background-color: #333;
 }
 
+.youtube-vid {
+    width: 99%;
+    height: 450px;
+}
+
 /*Footer*/
 footer {
     height: 50px;
@@ -168,6 +173,29 @@ footer {
     height: auto;
 }
 
+.spacing-test {
+    display: flex;
+    align-items: center;
+}
+
+.descrip {
+    flex: 1;
+}
+
+.image {
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .spacing-test {
+        flex-direction: column;
+    }
+
+    .image {
+        margin: 20px 0 0;
+    }
+}
+
 /*Stops the text from the section covering the footer and social links on smaller screens*/
 @media (max-width: 1100px) {
     section {
@@ -179,8 +207,8 @@ footer {
 /*Removes the margin to use all the screen space on small screens*/
 @media (max-width: 800px) {
     section {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
