@@ -173,29 +173,6 @@ footer {
     height: auto;
 }
 
-.spacing-test {
-    display: flex;
-    align-items: center;
-}
-
-.descrip {
-    flex: 1;
-}
-
-.image {
-    margin-left: 20px;
-}
-
-@media (max-width: 600px) {
-    .spacing-test {
-        flex-direction: column;
-    }
-
-    .image {
-        margin: 20px 0 0;
-    }
-}
-
 /*Stops the text from the section covering the footer and social links on smaller screens*/
 @media (max-width: 1100px) {
     section {
