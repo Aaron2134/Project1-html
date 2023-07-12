@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     background-color: rgb(60, 60, 60);
@@ -79,7 +79,6 @@ section {
     margin-top: 25px;
     margin-left: 100px;
     margin-right: 100px;
-    height: 1600px;
 }
 
 hr {
@@ -95,13 +94,6 @@ p {
     font-size: 20px;
     color: white;
     padding-top: 20px;
-}
-
-/*Spacing for the boss list*/
-.spacing {
-    height: 500px;
-    background-color: #333;
-    padding-left: 25px;
 }
 
 /* alignment for the overview page*/
@@ -154,65 +146,47 @@ footer {
     border: none;
 }
 
-/* Paragraph and image styling for bosses list*/
-.character-description {
-    width: 50%;
-    float: left;
-    margin-right: 20px;
-}
-
-.character-image {
-    float: right;
-    width: 40%;
-    margin-left: 20px;
-}
-
-.character-image img {
-    padding-top: 50px;
-    width: 550px;
-    height: auto;
-}
-
-.container {
+/*Spacing for the boss list*/
+.spacing {
     height: 500px;
-    background-color: black;
+    background-color: #333;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
-.text {
-    color: white;
+/* Paragraph styling for bosses list*/
+.boss-description {
     padding: 20px;
 }
 
-.image {
+.boss-image {
     margin-left: auto;
     margin-right: 20px;
-    height: 450px;
-    width: auto;
-}
-
-/*Stops the text from the section covering the footer and social links on smaller screens*/
-@media (max-width: 1100px) {
-    section {
-        overflow-y: auto;
-        padding-bottom: 50px;
-    }
+    height: 400px;
+    max-width: 100%
 }
 
 /*Removes the margin to use all the screen space on small screens*/
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     section {
+        padding-bottom: 50px;
         margin-left: 5px;
         margin-right: 5px;
     }
 }
 
-/*Stops the text from the boss divs leaving their assigned box*/
-@media (max-width: 1500px) {
+/*Stops the text from leaving the div on smaller screens*/
+@media (max-width: 1600px) {
     .spacing {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         overflow-y: auto;
-        padding-bottom: 50px;
+    }
+
+    .boss-image {
+        margin: 20px auto 0;
     }
 }
 
