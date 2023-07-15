@@ -182,7 +182,6 @@ main {
     margin-top: 25px;
     width: 45%;
     background-color: #333;
-    color: #fff;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -195,6 +194,7 @@ main {
     }
 }
 
+/*Overview page */
 /*Makes elements stack ontop of one another instead of side by side on smaller screens*/
 @media (max-width: 1100px) {
     main {
@@ -209,22 +209,16 @@ main {
     }
 }
 
-/* Adjust alignment for smaller screens */
-@media (max-width: 599px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .element {
-        width: 100%;
-    }
-
-    .element:first-child {
-        margin-bottom: 50px;
+/*Section*/
+/*Makes the margin smaller on smaller screens*/
+@media (max-width: 1400px) {
+    section {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
-/*Removes the margin to use all the screen space on small screens*/
+/*Removes most of the margin to more screen space on small screens*/
 @media (max-width: 1100px) {
     section {
         padding-bottom: 50px;
