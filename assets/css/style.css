@@ -129,6 +129,7 @@ footer {
     border: none;
 }
 
+/*Boss Page*/
 /*Spacing for the boss list*/
 .spacing {
     height: 500px;
@@ -152,7 +153,6 @@ footer {
 
 /*Overview page*/
 main {
-    padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
