@@ -132,7 +132,6 @@ footer {
 /*Boss Page*/
 /*Spacing for the boss list*/
 .spacing {
-    height: 500px;
     background-color: #333;
     display: flex;
     align-items: center;
@@ -221,11 +220,13 @@ main {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        overflow-y: auto;
+        padding-bottom: 25px;
     }
 
     .boss-image {
         margin: 20px auto 0;
+        width: 400px;
+        height: auto;
     }
 }
 
